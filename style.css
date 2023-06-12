@@ -1,0 +1,131 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+.bgimg{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+}
+@keyframes Loadinn {
+    from{
+        opacity: 0;
+        transform: rotate3d(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: rotate3d(0px);
+    }
+}
+body{
+    margin: 0px;
+    animation: Loadinn 1.25s;
+}
+h1, h2{
+    text-align: center;
+    margin-top: 0px;
+}
+h2{margin-bottom: 0px;}
+#intro{margin-bottom: 20px}
+
+.state {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    height: 100px;
+}
+
+.contents {
+    text-decoration: none;
+    list-style: none;
+    height: 100%;
+    width: 60%;
+    background-color: rgb(132, 193, 247);
+    margin: 0px;
+    border-radius: 10px;
+}
+.statement{
+    margin: 0px;
+}
+.left img{
+    float: left;
+    padding: 5px;
+    height: 90%;
+    border-radius: 10px;
+}
+.right img{
+    float: right;
+    padding: 5px;
+    height: 90%;
+    border-radius: 10px;
+}
+.left  .contents{
+    float: left;
+}
+.right .contents{
+    float:right;
+}
+.contents h3{
+    margin: 5px 0px;
+}
+.centre{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #39ff7f;
+    text-align: center;
+    border-radius:20px;
+    padding:10px;
+    margin-bottom: 0px;
+}
+.right h3, .right p{
+    padding-left: 5px;
+}
+.why div{
+    display: inline-block;
+    width: 49%;
+    padding: 10px 0px;
+    color: white;
+}
+.why > .hotair{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5% 0%;
+}
+.hotair , .map , .world{
+    text-align: center;
+    font-size: 20px;
+}
+.why{
+    margin-top: 101px;
+}
+.why > h2{
+    text-decoration:underline;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.contents:hover{
+    box-shadow: 5px 7px 15px black;
+    transition: 0.2s;
+    background-color: rgb(248, 236, 123);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1{
+    font-family: 'Bagel Fat One', cursive;
+    color: blanchedalmond;
+    font-size: 400%;
+    margin-bottom: 10px;
+}
+.centre{
+    font-family: 'Moirai One', cursive;
+    color: rgb(255, 94, 0);
+    font-size: 25px;
+}

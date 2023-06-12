@@ -1,0 +1,83 @@
+@keyframes Loadinn {
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+body{
+    animation: Loadinn 1.25s;
+}
+html{
+    text-align: center;
+    background-color: #030522;
+}
+.sites div{
+    display: block;
+}
+
+.site1{
+    width: 50%;
+    margin: auto;
+    border-style: inset;
+    border-color: aquamarine;
+    border-width: 5px;
+    border-radius: 5pc;
+    margin-bottom: 10px;
+    background-color: rgb(230, 108, 108);
+}
+.site1 h3{
+    font-size: 30px;
+}
+.site1 p{
+    font-size: 18px;
+}
+.sites img{
+    position: relative;
+    width: 100%;
+    border-radius: 4pc;
+}
+.intro > p{
+    padding: 0% 10%;
+}
+.site1:hover{
+    background-color: aquamarine;
+    border-color:  rgb(230, 108, 108);
+    transition-duration: .7s;
+}
+/* html:hover{
+    background-color:  #faebd7 ;   
+    transition-duration: 0.5s;
+} */
+.contacts li{
+    display: inline-block;
+}
+.contacts h3{
+    margin: 50px;
+    text-decoration-line: underline;
+    font-size: 25px;
+    color: rgb(247, 247, 247);
+}
+.contacts img{
+    border-radius: 50%;
+    height: 100px;
+}
+.media{
+    display: inline-flex;
+    gap: 250px;
+}
+h1{
+    font-family: 'Bagel Fat One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.intro p{
+    font-family: 'Diphylleia', serif;
+    color: rgb(255, 94, 0);
+    font-size: 25px;
+}
